@@ -1,9 +1,11 @@
 import { Component } from 'react';
+
 import FeedbackOptions from './components/FeedbackOptions';
 import Notification from './components/Notification';
 import Section from './components/Section';
 import Statistics from './components/Statistics';
-import './components/feed';
+
+import './feed.css';
 class App extends Component {
   state = {
     good: 0,
